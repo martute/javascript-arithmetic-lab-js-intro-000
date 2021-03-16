@@ -27,5 +27,5 @@ function divide(a,b) {
 }
 
 function increment(n) {
-  console.log(++n)
+  return(n++)
 }
