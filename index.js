@@ -13,9 +13,9 @@ function divide(number) {
   number/=4
 }
 function add(a,b) {
-  return(a+b)
+  return(a+=b)
 }
 
 function subtract(a,b) {
-  return(b-=a)
+  return(a-=b)
 }
