@@ -26,6 +26,6 @@ function divide(a,b) {
   return(a/=b)
 }
 
-function increment() {
-  return(517++)
+function increment(n) {
+  return(n++)
 }
