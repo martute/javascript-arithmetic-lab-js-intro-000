@@ -32,9 +32,9 @@ function increment(n) {
 function decrement(n) {
   return(n-=1)
 }
-function makeInt(n) {
-  parseInt(n, 10);
-  console.log(n);
+function makeInt(string) {
+  parseInt(string, 10);
+  console.log(string);
 }
 
 function preserveDecimal(n) {
